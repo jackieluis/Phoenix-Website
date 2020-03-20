@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="phoenixStyles.css">
+    <link rel="stylesheet" type="text/css" href="helloNavBar.css">
+    <title>Phoenix- Home Page</title>
+    
+</head>
+
+<body>
+    <nav>
+        <ul>
+        <li><a href="helloPhoenix.html">Home</a></li>
+        <li><a href="phoenixDetails.html">Details</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="#">My Life</a></li>
+        <li><a href="#">Contact Me</a></li>
+        <li><a href="#">SMCC</a></li>
+        </ul>
+    </nav>
+    <h1 id="top">Phoenix Facts</h1>
+        <h2>Introduction</h2>
+            <img src="images/westwardHo.jpeg" alt="Westward Ho Hotel" height="350px">
+            <p>Phoenix is the capital and most populous city in Arizona, with 1,660,272 people (as of 2018). It is also the fifth most populous city in the United States, and the only state capital with a population of more than one million residents. Phoenix is the anchor of the Phoenix metropolitan area, also known as the Valley of the Sun, which in turn is part of the Salt River Valley.</p>
+            <ul>
+                <li>Phoenix</li>
+                <li>Mesa</li>
+                <li>Chandler</li>
+                <li>Glendale</li>
+                <li>Scottsdale</li>
+                <li>Gilbert</li>
+            </ul>
+            <p>More info:<a href="https://www.visitphoenix.com">Visit Phoenix</a></p>
+            <p><a href="links.html">Links</a></p>
+            <p><a href="#top">Back to top</a></p>
+        <h2>Early People of Pheonix</h2>
+        <audio controls>
+                <source src="sounds/acousticBreeze.mp3" type="audio/mpeg">
+            </audio>
+        <!-- Comment: First the <section> that is a container box for the three <article> elements -->
+<section style="float: right; width: 250px; padding: 0px 8px; border: solid 2px #000; margin: 0; background-color: #ccc;">
+
+<!-- Comment: the first article -->
+<article style="overflow:auto; width:250px; padding: 10px 0px; border-bottom: solid 2px #000; margin: 0px;">
+<img src="images/plane.jpg" alt="futuristic aircraft" style="float:left; width:100px; height: 60px; padding-right: 5px;">
+<p style="padding: 0; margin: 0;">World's largest aircraft completes first test flight.</p>
+</article>
+
+<!-- Comment: the second article -->
+<article style="overflow:auto; width:250px; padding: 10px 0px; border-bottom: solid 2px #000; margin: 0px;">
+<img src="images/dolly.jpg" alt="Dolly on stage" style="float:left; width:100px; height: 60px; padding-right: 5px;">
+<p style="padding: 0; margin: 0;">On the road with Dolly Parton.</p>
+</article>
+
+<!-- Comment: the third article -->
+<article style="overflow:auto; width:250px; padding: 10px 0px; border: solid 0px #000; margin: 0px;">
+<img src="images/mini.jpg" alt="Mini in the year 2120" style="float:left; width:100px; height: 60px; padding-right: 5px;">
+<p style="padding: 0; margin: 0;">The Mini might drive you in 100 years.</p>
+</article>
+
+</section>
+            <p>The Hohokam people occupied the Phoenix area for 2,000 years. They created roughly 135 miles (217 kilometers) of irrigation canals, making the desert land arable, and paths of these canals were used for the Arizona Canal, Central Arizona Project Canal, and the Hayden-Rhodes Aqueduct. They also carried out extensive trade with the nearby Ancient Puebloans, Mogollon, and Sinagua, as well as with the more distant Mesoamerican civilizations. It is believed periods of drought and severe floods between 1300 and 1450 led to the Hohokam civilization's abandonment of the area.</p>
+            <p><a href="#top">Back to top</a></p>
+        <h2>History</h2>
+        <form style="float: right; width: 510px; padding: 5px; margin-left:15px; border: solid #000000 2px">
+        <fieldset>
+              <legend>INFO</legend>       
+        <div style="width:280px; float: left; border: hidden;">
+        First name:<br>
+            <input type="text" name="firstname" maxlength="4"><br><br>
+        Address:<br>
+            <textarea name="address" rows="3" cols="30">
+            </textarea><br><br>
+        Gender:<br>
+            <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other<br><br>
+        Which cities in Arizona have you visited?<br>
+           <input type="checkbox" name="Phoenix">Phoenix<br>
+           <input type="checkbox" name="Tempe">Tempe<br>
+           <input type="checkbox" name="Prescott">Prescott<br>
+           <input type="checkbox" name="Tucson">Tucson<br>
+           <input type="checkbox" name="Flagstaff">Flagstaff<br><br>
+    
+            </div>
+        <div style="width: 180px; float:right; border: hidden;">
+            Favorite Sports Team:<br>
+            <input list="teams">
+            <datalist id="teams">
+            <option value="Phoenix Rising">
+            <option value="Phoenix Mercury">
+            <option value="Cardinals">
+            <option value="Diamondbacks">
+            <option value="Phoenix Suns">
+            <option value="Sun Devils">
+            <option value="Wildcats">
+            <option value="Lumberjacks">
+            <option value="Coyotes">
+            </datalist><br><br>
+        Favorite Day of the Week:<br>
+            <select name="days of the week">
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
+            </select><br><br>
+        Birthday:<br>
+            <input type="date" name="bday"><br><br>
+        Favorite Color:<br>
+            <input type="color" name="favcolor"></option><br>
+        Last four digits of your credit card:<br>
+            <input type="number" name="quantity" maxlength="4" min="0000" max="9999"><br><br>
+        Create a password:<br>
+            <input type="password" name="psw"><br><br>
+        <input type="submit" onclick="alert('Thank you!');" value="Submit">
+        <input type="reset">
+         </div>   
+        </fieldset>
+      
+    </form><br>
+            <p>Phoenix was settled in 1867 as an agricultural community near the confluence of the Salt and Gila Rivers and was incorporated as a city in 1881. It became the capital of Arizona Territory in 1889. It is in the northeastern reaches of the Sonoran Desert and has a hot desert climate. Despite this, its canal system led to a thriving farming community with the original settler's crops remaining important parts of the Phoenix economy for decades, such as alfalfa, cotton, citrus, and hay. Cotton, cattle, citrus, climate, and copper were known locally as the "Five C's" anchoring Phoenix's economy. These remained the driving forces of the city until after World War II, when high-tech companies began to move into the valley and air conditioning made Phoenix's hot summers more bearable.</p>
+            <p><a href="#top">Back to top</a></p>
+            
+        <h2>Climate</h2>
+        <iframe src="https://www.youtube.com/embed/Qi8R6ShC0EU" allowfullscreen></iframe>
+            <p>Phoenix has a hot desert climate, typical of the Sonoran Desert and is the largest city of America in this climatic zone. Phoenix has very hot summers and mild winters. The city is within one of the world's sunniest regions, with its sunshine duration comparable to the Sahara region. With 3,872 hours of bright sunshine annually, Phoenix receives the most sunshine of any major city on Earth.</p>
+            <p><a href="#top">Back to top</a></p><br>
+        <h2>Culture</h2>
+        <img src="images/rooseveltRow.jpeg" alt="The Garden Mural in Roosevelt Row" style="height: 155px;">
+            <p>The city has numerous performing arts venues, most of which are in and around downtown Phoenix or Scottsdale. The Phoenix Symphony Hall is home to the Phoenix Symphony Orchestra, the Arizona Opera and Ballet Arizona.The downtown Phoenix art scene has developed in the past decade. The Artlink organization and the galleries downtown have launched a First Friday cross-Phoenix gallery opening, as well as hosting Art Detour which has become central to the city's cultural identity. Phoenix is the home of a unique architectural tradition and community. </p>
+            <p><a href="#top">Back to top</a></p>
+            <!-- Comment: First the <section> that is a container box for the three <article> elements -->
+<section style="overflow: auto; float: right; width: 640px; padding: 0px 4px; margin: auto; background-color: #ccc;">
+
+<!-- Comment: the first article -->
+<article style="overflow:auto;float: left; width:210px; padding: 15px 0px; border-right: solid 2px #808000; margin: 0px;">
+<img src="images/plane.jpg" alt="futuristic aircraft" style="width:150px; height: 150px; padding: 15px;">
+<p style="padding:5px; margin: 0; text-align: center;">World's largest aircraft completes its first test flight. </p> 
+</article>
+
+<!-- Comment: the second article -->
+<article style="overflow:auto; float: left; width:210px; padding: 15px 0px; border-right: solid 2px #808000; margin: 0px;">
+<img src="images/dolly.jpg" alt="Dolly on stage" style="width:150px; height: 150px; padding: 15px;">
+<p style="padding: 10.5px; margin: 0;text-align: center;">On the road with Dolly Parton and speical guests!</p>
+</article>
+
+<!-- Comment: the third article -->
+<article style="overflow:auto; float: left; width:210px; padding: 15px 0px; border: solid 0px #808000; margin: 0px;">
+<img src="images/mini.jpg" alt="Mini in the year 2120" style="width:150px; height: 150px; padding: 15px;">
+<p style="padding: 8px; margin: 0;text-align: center;">The Mini might drive you in 100 years.</p>
+</article>
+</section>
+<div style="float:left; border: none; font-family: gadget; color: #000000;">
+        <h2>Food From Around the World</h2><br>
+        <img src="images/cactusLandscape.jpeg" alt="Catus Vegetation on Mountain" style="padding: 20px; float: left">
+        <div class= "restaurants">
+   <article class="favorites">
+      <iframe name="mainFrame"
+           src="nami.html"
+           style="float:right; width:300px; height:290px; border: none;">
+      </iframe>
+   
+   <p>A few of my favorite restaurants:<br><br>
+      <a href="nami.html" target="mainFrame">Nami</a><br><br>
+      <a href="coronado.html" target="mainFrame">The Coronado</a><br><br>
+      <a href="federalPizza.html" target="mainFrame">Federal Pizza</a><br><br>
+      <a href="ricePaper.html" target="mainFrame">Rice Paper on 7th</a><br /><br />
+   </p>
+
+</article>
+</div>
+    <p>Like many other western towns, Phoenix's earliest restaurants were often steakhouses. Today, Phoenix is also renowned for its Mexican food, thanks to its large Hispanic population and its proximity to Mexico. The recent population boom has brought people from all over the nation, and to a lesser extent from other countries, and has since influenced the local cuisine. Phoenix boasts cuisines from all over the world, such as Korean, barbecue, Cajun/Creole, Greek, Hawaiian, Irish, Japanese, sushi, Italian, fusion, Persian, Indian (South Asian), Spanish, Thai, Chinese, southwestern, Tex-Mex, Vietnamese, Brazilian, and French.</p>
+            <p><a href="#top">Back to top</a></p>
+        
+
+   <div class="footer">
+      <p style="text-align: center;"><a href="https://den2070986.wordpress.com/">Jackie Luis</a></p>
+      <p>Here’s something else <a href="phoenixDetails.html">about Phoenix!</a></p>
+    </div>
+
+</body>

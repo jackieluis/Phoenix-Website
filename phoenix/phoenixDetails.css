@@ -1,0 +1,13 @@
+    a:link{
+		text-align:center; 
+		}
+    a:visited{
+		text-decoration: line-through;
+        }
+
+    a:hover{
+		text-transform: uppercase;
+		}
+	a:active{
+        color:#ff0000;
+        }

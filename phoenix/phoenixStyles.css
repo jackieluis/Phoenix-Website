@@ -1,0 +1,57 @@
+div{
+overflow:auto;
+border: 2px solid;
+font-family: monospace;
+color: #513A12;
+
+}
+
+img{
+  width: 300px;
+    float: right;
+  border-radius: 20px;
+}
+
+body{
+    background-color: #fcfced;
+}
+iframe{
+    width: 560px;
+    height: 315px;
+}
+h1{
+    text-align: center;
+    color: #4c4c4c;
+}
+p{
+    font-family: gadget;
+   
+}
+h2{
+    font-family: charcoal;
+    color: #c27c04;
+    background: #fcfced
+}
+
+  
+.footer{
+  border: none;
+  font-family: gadget;
+  color: #000000;
+  text-align: center;
+}
+
+.favorites p{
+  overflow: auto;
+  border-color: #fcfced;
+  font-family: monospace;
+  padding-left: 10px;
+  font-size: 14px
+ 
+}
+.restaurants{
+   background-color: #DCCAAC;
+   width: 650px;
+   height: 290px;
+   float: right;
+}

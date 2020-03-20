@@ -1,0 +1,14 @@
+body{
+  background-color:#DCCAAC;
+   font-family: monospace;  
+}
+
+p{
+  text-align: left;
+  padding-left: 14px;
+}
+
+img{
+  padding-left: 15px;
+  padding-right: 10px;
+}
